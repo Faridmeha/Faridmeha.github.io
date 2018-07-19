@@ -1,2 +1,0 @@
-# faridmeha.github.io
-cvfarid
