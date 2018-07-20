@@ -1,0 +1,267 @@
+
+html{
+	height: 100%;
+	margin: 0px;
+	background-image:url(https://diaginformatique.fr/wp-content/uploads/2016/05/bloggif_562b61cea737c-1280x400.jpeg);
+	background-attachment: fixed;
+
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 14px;
+}
+
+
+body{
+	margin: 100px;
+	background-image: url(http://www.lerufisquois.info/wp-content/uploads/2018/05/fonds-ecran-hd_05.jpg);
+background-attachment: fixed;
+}
+
+
+h1{
+	font-size: 57px;
+	text-shadow: 1px 1px 30px brown;
+	color:brown;
+	top: 25px;
+	text-align: center;
+	
+
+
+}
+
+p{
+	font-size: 17px;
+	margin: 15px;
+	text-transform:none;
+
+        
+}
+.tt{
+
+	font-size: 27px;
+	margin: 20px;
+	text-shadow: 3px 3px 40px #D0006D;
+	background: url(https://i.pinimg.com/originals/c4/78/3d/c4783d1f2e381caa6148af8fb998b6dc.gif);
+        -webkit-background-clip:text;
+        -webkit-text-fill-color:transparent;
+}
+.log{
+	height: 200px;
+	width: 250px;
+	margin: 15px;
+	top:15px;
+	border-radius: 100px;
+	transition: transform .2s;
+
+}
+.log:hover{
+transform: scale(1.5); 
+}
+img{
+	width: 50px;
+    height: 70px;
+  border-radius: 10px;
+  transition-property: padding;
+  transition-duration: 0.5s;
+}
+
+.img:hover{
+	padding: 30px;
+	background-color: #2A65DC;
+}
+.lg:hover{
+	padding: 30px;
+	background-color: #BC008D;
+}
+.lm img{
+		border-radius: 100px;
+
+	padding: 15px;
+	height: 150px;
+	width: 200px;
+	transition-property: margin-right ;
+}
+.lm:hover{
+	padding: 30px;
+	background-color: #BC008D;
+} 
+
+.bloc1, .bloc2 , .bloc3{
+border: 1px;
+display: inline-block;
+box-shadow: 1px 1px 11px blue;
+height: 70%;
+margin: 0px;
+padding-top: 0px;
+}
+
+.bloc1{
+	width: 25%;
+    position: relative;
+    float: left;
+
+}
+
+
+.bloc2{
+width: 50%;
+position: relative;
+float: center;
+}
+
+.bloc3{
+width: 24%;
+position: relative;
+float: right;
+font-size: 20px;
+}
+
+
+
+
+.etat{
+	font-size: 21px;
+
+}
+ul{
+	font-size: 19px;
+
+}
+
+#langues{
+
+	display: flex;
+	justify-content: space-around;
+	font-size: 17px;
+	box-shadow: 1px 1px 13px blue;
+}
+.footer {
+	text-align: center;
+	width: 47%;
+	border: solid 1px;
+	 border-top-left-radius: 50px;
+}
+.lng{
+    text-align: left;
+    width: 47%;
+	border: solid 1px;
+	 border-top-left-radius: 50px;
+}
+h2{
+	animation-duration: 2s;
+  animation-name: aladin;
+    animation-iteration-count:unset;
+    border:1px solid;
+    border-radius: 55px;
+    text-align: center;
+    text-shadow: 3px 3px 30px #1D1AB2;
+
+
+}
+
+@media (max-width: 640px) {
+	* {
+		box-sizing: border-box;
+	}
+	
+	
+
+	body {
+		width: auto;
+		margin: 0;
+		padding: 0;
+	}
+	
+	
+
+	img,
+	table,
+	td,
+	blockquote,
+	code,
+	pre,
+	textarea,
+	input,
+	iframe,
+	object,
+	embed,
+	video {
+		max-width: 100%;
+	}
+	
+	
+
+	img {
+		height: auto;
+	}
+	
+	
+
+	textarea,
+	table,
+	td,
+	th,
+	code,
+	pre,
+	samp {
+		-webkit-hyphens: auto; 
+		-moz-hyphens: auto;
+		hyphens: auto;
+		word-wrap: break-word; 
+	}
+	
+	code,
+	pre,
+	samp {
+		white-space: pre-wrap; 
+	}
+	
+	/* Passer à une seule colonne  */
+
+	.bloc2,.bloc1,.bloc3,.footer,.lng{
+		float: none;
+		width: auto;
+	}
+	
+	#langues{
+		float: none;
+		width: auto;
+	}
+	h1,img,p,h2{
+		float: none;
+		width: auto;
+	}
+	h1,.log{
+		float: none;
+		width: auto;
+	}
+
+	.hide_mobile {
+		display: none !important;
+	}
+	
+	
+
+	body:before {
+		content: "Version mobile du site";
+		display: block;
+		text-align: center;
+		font-style: italic;
+		color: #777;
+	}
+}
+
+@keyframes aladin {
+	75% {
+  font-size: 300%;
+  margin-left: 25%;
+  width: 150%;
+}
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+ }
