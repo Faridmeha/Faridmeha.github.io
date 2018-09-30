@@ -3,6 +3,8 @@ html{
 	height: 100%;
 	margin: 0px;
 	background-image:url(background.jpg);
+		background-image:repeat;
+
 	background-attachment: fixed;
 
 	font-family: 'Roboto Condensed', sans-serif;
